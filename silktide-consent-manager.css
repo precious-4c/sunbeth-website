@@ -13,13 +13,13 @@
   --focus: 0 0 0 2px #ffffff, 0 0 0 4px #000000, 0 0 0 6px #ffffff;
   --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
   --fontFamily: "Hostgrotesk Variablefont Wght", Arial, sans-serif;
-  --primaryColor: #fc4c02;
+  --primaryColor: #050200;
   --backgroundColor: #ffffff;
-  --textColor: #253b48;
-  --backdropBackgroundColor: #00000033;
+  --textColor: #000000;
+  --backdropBackgroundColor: #0000004d;
   --backdropBackgroundBlur: 0px;
-  --cookieIconColor: #ffffff;
-  --cookieIconBackgroundColor: #fc4c02;
+  --cookieIconColor: #000000;
+  --cookieIconBackgroundColor: #ffffff;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -91,10 +91,16 @@
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 100vw;
 }
 
 #silktide-wrapper .st-button--primary {
+}
+
+#silktide-wrapper .st-button:is(.reject-all, .preferences-reject-all) {
+  color: #000 !important;
+  background-color: #ececec !important;
+  border-color: transparent !important;
 }
 
 #silktide-wrapper .st-button--primary:hover {
