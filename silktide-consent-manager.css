@@ -94,11 +94,10 @@
   border-radius: 100vw !important;
 }
 
-button.accept-all.st-button.st-button--primary {
-    border-radius: 100vw !important;
-}
+
 
 #silktide-wrapper .st-button--primary {
+  border-radius: 100vw !important;
 }
 
 #silktide-wrapper .st-button:is(.reject-all, .preferences-reject-all) {
